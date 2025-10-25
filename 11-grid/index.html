@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Grid</title>
 </head>
 <body>
-    
+     <div class="w-100 grid grid-cols-3 grid-rows-4 gap-4">
+     <div class="p-10 bg-green-200">01</div>
+     <div class="p-10 bg-green-200">02</div>
+     <div class="p-10 bg-green-200">03</div>
+     <div class="p-10 bg-green-200">04</div>
+     <div class="p-10 bg-green-200">05</div>
+     <div class="p-10 bg-green-200">06</div>
+     <div class="p-10 bg-green-200">07</div>
+     <div class="p-10 bg-green-200">08</div>
+     <div class="p-10 bg-green-200">09</div>
+     <div class="p-10 bg-green-200">10</div>
+     </div>
+
+     <!-- Col and row Span -->
+ <div class="w-100 grid grid-cols-3 gap-4">
+    <div class="p-10 bg-green-200 col-span-1 row-span-2 p-10 ">01</div>
+    <div class="p-10 bg-green-200">02</div>
+    <div class="p-10 bg-green-200">03</div>
+    <div class="p-10 bg-green-200">04</div>
+    <div class="p-10 bg-green-200">05</div>
+    <div class="p-10 bg-green-200">06</div>
+
+
+<br/>
+
+<div class="p-10 bg-teal-200 col-span-3">07</div>
+<div class="p-10 bg-teal-200">07</div>
+<div class="p-10 bg-teal-200 col-span-2">07</div>
+ </div>
+
 </body>
 </html>
